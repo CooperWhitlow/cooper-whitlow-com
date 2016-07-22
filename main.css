@@ -1,0 +1,194 @@
+.bold {
+  font-weight: 1400;
+}
+
+body {
+  font-family: "appleFont", Arial;
+  background: url(img/bg.jpg) repeat center center fixed;
+  background-size: cover;
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-weight: 400 !important;
+  text-align: center;
+  vertical-align: middle;
+  margin:0px;
+  padding: 0px 0px;
+  line-height:220px;
+}
+
+p {
+  padding-bottom: 15px;
+  font-size:0.8em;
+  margin: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  width: 7%;
+  height: 7%;
+  margin-top: -50px;
+  margin-left:50px;
+}
+
+header h1 {
+  padding: 40px;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0px;
+}
+
+nav {
+  position:relative;
+  display: block;
+  height: 100%;
+  margin:0 auto;
+  width:740px;
+}
+
+nav li {
+  cursor: pointer;
+  text-align: center;
+  font-size: 25pt;
+  margin: 20px;
+  display: inline-block;
+  list-style: none;
+  width: 320px;
+  height: 220px;
+  border: solid 1px white;
+  border-radius: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  margin: 340px 0 0 0;
+}
+
+#error-footer {
+  margin-top: -2px;
+}
+
+footer li {
+  bottom:0px;
+  padding:0px 10px;
+}
+
+.closeButton {
+  display: block;
+  float: left;
+  position: absolute;
+  width:23px;
+  height:23px;
+  margin: 20px 0 0px 20px;
+}
+
+#work {
+  position:absolute;
+  left:0;
+}
+
+#projects {
+  position:absolute;
+  right:0;
+}
+
+.blur {
+  background: url(img/bgBlur.jpg) repeat fixed center center;
+  background-size: cover;
+}
+
+.expandedPosition {
+  margin: 490px 0px 10px 0px;
+}
+
+.expandedDimension {
+  width: 698px;
+  height: 345px;
+  padding: 0px 0px 50px 0px;
+}
+
+.emoticonHead {
+  font-size: 1.2em;
+}
+
+#home {
+  width: 75%;
+}
+
+@font-face {
+    font-family: "appleFont";
+    src: url("HelveticaNeue-UltraLight.woff") format('woff');
+    text-rendering: optimizeLegibility;
+}
+
+@media all and (max-width: 765px) {
+
+  nav {
+    width:100%;
+  }
+
+  ul {
+    padding: 0px;
+  }
+  nav li {
+    margin: 20px;
+    width: 340px;
+    height: 180px;
+    display:block;
+    white-space: normal;
+  }
+
+  #projects {
+    position: relative;
+    margin: 20px auto;
+
+  }
+
+  #work {
+    position: relative;
+    margin: 20px auto;
+  }
+
+  .expandedDimension {
+    margin: 20px;
+    width: 88.5%;
+    height: 300px;
+  }
+
+  .expandedPosition {
+    margin: 0px 0px 10px 0px;
+  }
+
+  h2 {
+    margin:0px auto;
+    font-size: 1.1em;
+    line-height:180px;
+}
+
+  p {
+  font-size:0.7em;
+  margin: 0px 10px;
+
+  }
+
+  footer {
+    margin: 20px 0 0 0;
+  }
+  header h1 {
+  font-size: 2.1em;
+  }
+
+}
+

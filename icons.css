@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('fonts/fontawesome-webfont.woff') format('woff');
+  text-rendering: optimizeLegibility !important;
+}
+
+.icon::before {
+    display: inline-block;
+    margin-right: .25em;
+    margin-left: .25em;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility !important;
+}
+
+.gi::before {
+  content: "\f09b";
+}
+
+.tw::before {
+  content: "\f099";
+}
+
+.in:before {
+  content: "\f0e1";
+}
