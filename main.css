@@ -1,5 +1,6 @@
 .bold {
   font-weight: 1400;
+  text-decoration: underline;
 }
 
 body {
@@ -120,7 +121,8 @@ footer li {
 }
 
 .emoticonHead {
-  font-size: 1.2em;
+  font-size: 1.0em;
+  line-height: 1.5em;
 }
 
 #home {
