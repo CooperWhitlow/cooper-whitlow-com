@@ -11,8 +11,9 @@ body {
   color: white;
   background-color: black;
   text-align: center;
-/*  text-rendering: optimizeLegibility;
-*/}
+/*  text-rendering: optimizeLegibility; (this broked mobile formatting)
+*/
+}
 
 h2 {
   font-weight: 400 !important;

@@ -1,5 +1,5 @@
-var username = "raincitycode";
-var hostname = "gmail.com";
+var username = "RAINCITYCODE";
+var hostname = "GMAIL.COM";
 var email = username + "@" + hostname ;
 var linktext = "<a class='bold' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + email + "</a>";
 var workState = "collapsed";
