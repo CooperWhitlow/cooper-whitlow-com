@@ -4,6 +4,7 @@
 }
 
 body {
+  letter-spacing: 1px;
   font-family: "appleFont", Arial;
   background: url(img/bg.jpg) repeat center center fixed;
   background-size: cover;
